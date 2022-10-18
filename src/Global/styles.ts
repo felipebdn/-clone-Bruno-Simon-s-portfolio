@@ -12,4 +12,4 @@ export const GlobalStyle = createGlobalStyle`
     background: #262626;
     color: #fff;
   }
-`;
+`
