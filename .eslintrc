@@ -1,0 +1,22 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "env": {
+    "browser": true
+  },
+  "extends": [
+    "prettier",
+    "eslint:recomended",
+    "plugin:react/recomended",
+    "plugin:react/jsx-runtime",
+    "plugin:@typescript-eslint/recomended"
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": "latest"
+  }
+}
